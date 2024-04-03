@@ -1,0 +1,11 @@
+Feature: Login 
+
+Scenario: Acessar URL de VCN gerados pelo login
+  Given que estou na tela de login
+  When eu acesso a URL "https://vcn.homolog.bee2pay.com/vcns"
+  Then devo ver o titulo "VCN Gerados"
+
+Scenario: Acessar tela de gestão de VCNs através de uma URL
+   Given que tenho uma URL de VCN
+   When eu acessar a URL
+   Then devo ver o titulo "VCN Gerados"
