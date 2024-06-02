@@ -1,1 +1,1 @@
-# qa-automation-front-buyer
+# qa-automation-front

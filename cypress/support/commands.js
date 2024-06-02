@@ -10,10 +10,11 @@
 //
 //
 // -- This is a parent command --
-Cypress.Commands.add('login', (email, password) => {
-    cy.get('elemento').type('antonio.almeida')
-    cy.get()
-      })
+//Cypress.Commands.add('vcngerados', () => {
+  //cy.visit('https://vcn.dev.bee2pay.com/vcns');
+  //cy.get('seu-elemento').should('contain', 'Vcn gerados');
+//});
+
 //
 //
 // -- This is a child command --
