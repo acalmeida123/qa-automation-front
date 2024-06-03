@@ -16,6 +16,6 @@ describe('Acessar a página da Getnet e verificar funcionalidade de busca', () =
 
         ajudaPage.selectResult()
 
-        ajudaPage.verifyModalContent('o texto explicativo a dúvida selecionada')
+        ajudaPage.verifyModalContent('Portal do Cliente')
     });
 });
