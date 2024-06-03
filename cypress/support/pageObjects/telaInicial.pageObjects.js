@@ -7,8 +7,8 @@ class TelaInicial {
 
     validarLabel(texto) {
         cy.get(ELEMENTS.validateLabel)
-            .should('be.visible')
-            .and('contain.text', texto);
+        .should('be.visible')
+        .and('contain.text', texto);
     }
 
     openAjuda() {

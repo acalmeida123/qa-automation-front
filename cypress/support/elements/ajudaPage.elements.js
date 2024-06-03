@@ -1,5 +1,5 @@
 export const ELEMENTS = {
-    searchInput: 'input[name="search"]',
-    searchResult: "//a[contains(text(), 'Eu concluí a negociação, de que forma receberei meu boleto?')]",
-    modalContent: '.is-modal-open > .o-modal__content > .o-modal__text > .o-modal__text-content'
+    searchInput: "input.c-search-faq__input",
+    searchResult: "//h2[@class='c-search-dropdown-link__title'][contains(.,'Eu concluí a negociação, de que forma receberei meu boleto?')]",
+    modalContent: "//h4[contains(.,'Portal do Cliente')]"
 }
