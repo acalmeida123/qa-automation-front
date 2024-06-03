@@ -12,7 +12,7 @@ class TelaInicial {
     }
 
     openAjuda() {
-        cy.xpath(ELEMENTS.helpMenu).click();
+        cy.get(ELEMENTS.helpMenu).click();
         cy.xpath(ELEMENTS.helpCenter).click();
     }
 }

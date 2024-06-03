@@ -1,5 +1,5 @@
 export const ELEMENTS = {
-    searchInput: 'input[name="search"]', // Seletor CSS para o campo de busca
-    searchResult: "//a[contains(text(), 'Eu concluí a negociação, de que forma receberei meu boleto?')]", // XPath para o resultado da busca
-    modalContent: '.modal-content' // Seletor CSS para o conteúdo da modal
+    searchInput: 'input[name="search"]',
+    searchResult: "//a[contains(text(), 'Eu concluí a negociação, de que forma receberei meu boleto?')]",
+    modalContent: '.is-modal-open > .o-modal__content > .o-modal__text > .o-modal__text-content'
 }
